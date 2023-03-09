@@ -1527,3 +1527,59 @@ img, svg {
 .md {
   font-size: 1.5rem;
 }
+.bg-page-background-1 {
+  background-image: linear-gradient(180deg,hsla(0,0%,100%,.75),hsla(0,0%,100%,.75)),url(/static/media/page-background-1.79344f6b.png);
+  background-position: 50%;
+  background-size: cover;
+}
+.student-feedback-card--image {
+  width: 100%;
+  height: 100%;
+}
+.section-cover h2 {
+  color: #002855;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arno Pro";
+  color: #fff;
+}
+.bg-page-background-10 {
+ 
+  background-position: 50%;
+  background-size: cover;
+  margin-top: 37px;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn.btn-highlight, .btn.btn-highlight:hover {
+  color: #fff;
+  background-color: #e8751e;
+  border-color: #e8751e;
+}
+.form-control.form-control--transparent {
+  background-color: transparent;
+  color: #fff;
+  border-radius: .5rem;
+}
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.bg-page-background-2, .bg-page-background-3 {
+  background-position: 50%;
+  background-size: cover;
+}
+
+.font-weight-bold {
+  font-weight: 700!important;
+}
+
+
+.fixed-top {
+  background-color: #001429; /* dark grey */
+}
+
+
+.bg-white.scrolled {
+  background: #2f2b85fa!important;
+}
