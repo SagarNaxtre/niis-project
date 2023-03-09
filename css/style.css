@@ -1583,3 +1583,16 @@ h1, h2, h3, h4, h5, h6 {
 .bg-white.scrolled {
   background: #002855!important;
 }
+h3.mb-5.font-weight-bold ,p.mb-4.text-center.text-text-color,h5.mb-5.font-weight-semibold {
+  color: black;
+}
+.site-hero p,.site-hero ul li p {
+  color: #000000;
+  line-height: 1.5;
+}
+ p.font-weight-light {
+  color: #000000;
+}
+p.display-9.font-weight-normal.font-heading-font{
+  color: #ffffff;
+}
