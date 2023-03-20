@@ -1742,3 +1742,13 @@ h2 {
   color: #002855
   ;
 }
+.navbar-nav .dropdown-menu a:not(:last-child) {
+  border-bottom: 1px solid #eef2fe;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: inherit;
+}
+.navbar-nav .dropdown-menu a {
+  text-transform: capitalize;
+  padding: 1rem;
+}
