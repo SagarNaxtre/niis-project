@@ -1602,9 +1602,7 @@ h3.mb-5.font-weight-bold ,p.mb-4.text-center.text-text-color,h5.mb-5.font-weight
   color: #000000;
   line-height: 1.5;
 }
- p.font-weight-light {
-  color: #000000;
-}
+
 p.display-9.font-weight-normal.font-heading-font{
   color: #ffffff;
 }
@@ -1647,6 +1645,100 @@ p.display-9.font-weight-normal.font-heading-font{
   padding: .5rem;
   background-color: #004c97;
   border-radius: 10px;
-}
+} 
   
+}
+/* @media screen and (max-width:991px) {
+
+  .about-us-mini-card--title {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    width: 65%;
+    margin: .5rem auto;
+    padding: .5rem;
+    background-color: #004c97;
+    height: 38px;
+}
+.h6, h6 {
+    font-size: -1rem;
+}
+} */
+
+.social-media-card--header-avatar {
+  width: 42px;
+  height: 42px;
+}
+.social-media-card--header-icon {
+  width: 18px;
+  height: 18px;
+  bottom: 51px;
+  position: relative;
+  float: right;
+  right: 153px;
+}
+.text-highlight-color, .text-highlight-color-active:active, .text-highlight-color-hover:hover {
+  color: #e8751e;
+}
+.card {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.card-columns .card {
+  margin-bottom: .75rem;
+}
+img, svg {
+  vertical-align: middle;
+}
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+.social-media-card--footer {
+  position: relative;
+}
+.text-text-color {
+  color: #222;
+}
+.font-sm {
+  font-size: .8rem;
+}
+.mb-0, .my-0 {
+  margin-bottom: 0!important;
+}
+.text-text-light-color {
+    color: #c7c7c7;
+}
+.text-heading-color {
+  color: #002855;
+}
+.bg-background-color, .bg-stroke-color {
+  background-color: #eef2fe;
+}
+.h5, h5 {
+  font-size: 1.5rem;
+}
+/* p.font-md.font-weight-light {
+  color: white;
+} */
+h3.mb-4 {
+  color: black;
+}
+h2 {
+  font-family: "Arno Pro";
+  color: #002855
+  ;
 }
